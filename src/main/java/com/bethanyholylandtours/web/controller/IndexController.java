@@ -14,8 +14,6 @@ public class IndexController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String get(ModelMap model) {
-        System.out.print("");
-
         return "index";
     }
 }
